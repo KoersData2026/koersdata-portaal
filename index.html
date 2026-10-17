@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Koersdata Portaal</title>
+<style>
+:root { --surface:#F4F6F5; --raised:#FFFFFF; --ink:#12283A; --muted:#4D5F6E; --diep:#12283A; --on-diep:#FFFFFF; --on-diep-muted:#B9C7D2; --koper:#A65A17; --line:#C5D0D7; }
+@media (prefers-color-scheme: dark) { :root { --surface:#0D1A24; --raised:#142532; --ink:#E7EDF1; --muted:#A1B1BE; --diep:#0A1620; --on-diep:#E7EDF1; --on-diep-muted:#A1B1BE; --koper:#E58A44; --line:#2C4152; color-scheme: dark; } }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--surface); color:var(--ink); font:400 16px/24px "Segoe UI", system-ui, -apple-system, sans-serif; min-height:100vh; display:flex; flex-direction:column; }
+header { background:var(--diep); color:var(--on-diep); }
+.binnen { max-width:720px; margin:0 auto; width:100%; padding:20px max(16px, env(safe-area-inset-left, 0px)); }
+.merk { font:600 26px/1 "Barlow Condensed","Arial Narrow",sans-serif; letter-spacing:.01em; }
+.merk span { color:var(--on-diep-muted); font-weight:400; }
+main { flex:1; }
+h1 { font:600 34px/38px "Barlow Condensed","Arial Narrow",sans-serif; margin:32px 0 8px; }
+p { margin:0 0 16px; max-width:60ch; }
+.kaart { background:var(--raised); border:1px solid var(--line); border-radius:8px; padding:16px; margin-top:24px; }
+.klein { font-size:14px; color:var(--muted); }
+a { color:var(--koper); font-weight:600; }
+footer .binnen { font-size:14px; color:var(--muted); }
+</style>
+</head>
+<body>
+<header><div class="binnen"><div class="merk">Koersdata <span>Portaal</span></div></div></header>
+<main>
+  <div class="binnen">
+    <h1>Je dashboard</h1>
+    <p>Hier staan de dashboards van klanten van Koersdata. Je opent jouw dashboard met de persoonlijke link die je van ons hebt gekregen.</p>
+    <div class="kaart">
+      <p><strong>Link kwijt?</strong> Mail ons op <a href="mailto:info@koers-data.nl">info@koers-data.nl</a>, dan sturen we hem opnieuw.</p>
+      <p class="klein">Meer over Koersdata lees je op <a href="https://koers-data.nl">koers-data.nl</a>.</p>
+    </div>
+  </div>
+</main>
+<footer><div class="binnen">© 2026 Koersdata · Roelofarendsveen</div></footer>
+</body>
+</html>
